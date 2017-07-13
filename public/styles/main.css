@@ -1,0 +1,69 @@
+.active {
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: #555;
+}
+
+input {
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.pick {
+  text-align: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-wrapper li {
+  padding: 10px;
+}
+
+.nav-wrapper a {
+  color: #555;
+  font-size: 21px;
+}
+
+.nav-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.team-wrapper {
+  text-align: center;
+}
+
+.team-wrapper li {
+  line-height: 22px;
+}
+
+.cavaliers h3, .cavs{
+  color: #870038;
+}
+
+.warriors h3, .warrs {
+  color: #233F92;
+}
